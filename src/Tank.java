@@ -3,6 +3,13 @@ public class Tank {
     int x, y;
     int dir;
 
+    public Tank() {
+    }
+
+    public Tank(int i, int i1) {
+
+    }
+
     public void goForward(int i) {
         if (dir == 0) x += i;
         else if (dir == 1) y += i;
